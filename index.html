@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>Zac Reynolds</title>
-		
+
 		<!-- Font-Awesome -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
 		<!-- Bootstrap -->
@@ -12,7 +12,8 @@
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-        <link href="css/style.css" type="text/css" rel="stylesheet" />
+		<link href="css/style.css" type="text/css" rel="stylesheet" />
+		<link rel="icon" href="images/ZR.png" />
 	</head>
 	<body class="container-fluid text-center">
 	  <header id="nav">
@@ -69,10 +70,11 @@
 		</section>
 
 		<section id="portfolio" class="content-section">
-		  <h2>My Work</h2>
-		  <ul id="portfolio">
-			<li class="work"><a href="http://midins.com/" target="_blank">
-			  <img src="images/midwest_logo.gif"/>Midwest Insurance Company</a>
+		  <ul class="portfolio">
+            <h2 class="text-center">My Work</h2>
+			<li class="work">
+              <h3><a href="http://midins.com/" target="_blank">
+			  <img src="images/midwest_logo.gif"/>Midwest Insurance Company</a></h3>
 			  <p><i>July, 2013 - October, 2016</i></p>
 			  <p>
 				At Midwest I worked to improve the experience for our clients and internal staff. This included projects to add features to our internal systems and outward website, fix bugs, and implement automated processes to free employees from time consuming tasks.
@@ -81,8 +83,9 @@
 				These projects most often involved working in Java, SQL(Oracle and MySQL), AS2, PHP, and JavaScript.
 			  </p>
 			</li>
-			<li class="work"><a href="http://www.rhventures.org/" target="_blank">
-			  <img src="images/ventures_logo.gif"/><h3>Rose-Hulman Ventures</h3></a>
+			<li class="work">
+              <h3><a href="http://www.rhventures.org/" target="_blank">
+			  <img src="images/ventures_logo.gif"/><h3>Rose-Hulman Ventures</h3></a></h3>
 			  <p><i>May, 2011 - February 2012</i></p>
 			  <p>
 				At Rose-Hulman Ventures I worked with a small team of developers to create an application using C#.NET and PHP to parse plain text instructions into specific time intervals that could be used to alert a user as to when the instructions needed to be followed.
@@ -92,8 +95,32 @@
 			  </p>
 			</li>
 		  </ul>
+          <ul class="portfolio">
+            <br/>
+            <h2 class="text-center">Projects</h2>
+            <li class="work">
+                <h3><a href="http://www.reyzed.com/" target="_blank">Reyzed Gaming</a></h3>
+                <p>
+                  Reyzed Gaming is a project I've been tossing around in my head for a couple years and have finally gotten around to actually working on. It is a companion site for popular streaming sites like <a href="https://twitch.tv" target="_blank">twitch.tv</a> and <a href="https://beam.pro" target="_blank">beam.pro</a> that allows viewers to play a simple flash game while watching their favorite streamers.
+                  <br/>
+                  <br/>
+                  Future plans involve adding a bot that will allow the game for the site to integrate with the actual stream and let players earn currency for the stream as they play and provide all of the other functions that typical stream bots provide (custom commands, giveaways, song requests, etc.).
+                </p>
+                <p>
+                <a href="https://github.com/zreynolds91/ReyzedGaming" target="_blank">Site Github Repo</a>
+                <br/>
+                <a href="https://github.com/zreynolds91/ReyzedBot" target="_blank">Bot Github Repo</a>
+                </p>
+            </li>
+            <li class="work">
+                <h3><a href="http://www.metroeastwildlife.com/" target="_blank">Metro-East Wildlife Control</a></h3>
+                <p>
+                  Metro-East Wildlife Control is a company that humanely removes and relocates unwanted or nuisance wildlife from homes or properties. I have recently taken over the maintenance of the website and have updated the old website to be responsive and work better on mobile devices.
+                </p>
+                <a href="https://github.com/zreynolds91/MetroEastWildlife" target="_blank">Site Github Repo</a>
+          </ul>
 		</section>
-		
+
 		<section id="personal-info" class="content-section">
 		  <div class="row">
 			<div class="col-md-1"></div>
@@ -176,12 +203,12 @@
 		</div>
 	  </footer>
 	</body>
-	
+
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	
+
 	<script>
 	// Hide Header on on scroll down
 	var prev = 0;

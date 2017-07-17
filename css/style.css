@@ -147,7 +147,7 @@ ul#filter li.current a {
   font-weight: bold; 
 }
 
-ul#portfolio { 
+ul.portfolio { 
   float: left;
   text-align: left;
   list-style: none; 
@@ -155,15 +155,13 @@ ul#portfolio {
   width: 80vw;
 }
 
-ul#portfolio li { 
+ul.portfolio li { 
   float: left; 
   margin: 0 10px 10px 0; 
   padding: 5px;
   width: 100%;
-  height: 40vh;
 }
 
-ul#portfolio a { font-size: 3vmin; display:inline; width: 100%; }
-ul#portfolio i { font-size: 2vmin;}
-ul#portfolio a:hover { text-decoration: none; }
-ul#portfolio img { align-items: center; display: block; padding-bottom: 5px; }
+ul.portfolio i { font-size: 2vmin;}
+ul.portfolio a:hover { text-decoration: none; }
+ul.portfolio img { align-items: center; display: block; padding-bottom: 5px; }
